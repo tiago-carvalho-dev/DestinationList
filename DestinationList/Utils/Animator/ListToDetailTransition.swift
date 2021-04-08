@@ -91,7 +91,7 @@ final class ListToDetailTransition: NSObject, UIViewControllerAnimatedTransition
         [selectedCellImageViewSnapshot, controllerImageSnapshot].forEach {
             $0.frame =  cellImageViewRect
             
-            $0.layer.cornerRadius = 12
+            $0.layer.cornerRadius = 16
             $0.layer.masksToBounds = true
         }
         
